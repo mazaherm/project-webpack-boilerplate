@@ -1,0 +1,11 @@
+{ 
+  "presets": ["@babel/preset-env"],
+  "plugins": [
+    ["babel-plugin-module-resolver", {
+      "alias": {
+        "@pages": "./src/app/pages",
+        "@styles": "./src/styles"
+      }
+    }]
+  ]
+}
